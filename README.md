@@ -1,5 +1,5 @@
 ❓ Problem Statement
-This assignment aims to analyze and forecast stock price trends using time series forecasting techniques. By working with real Apple stock data from Kaggle, students will perform trend analysis, identify seasonality, and build models such as ARIMA and SARIMA to predict future prices. The objective is to gain practical exposure to time series modeling and understand the statistical patterns underlying financial time series.
+This assignment aims to analyze and forecast stock price trends using time series forecasting techniques. By working with real Apple stock data from Kaggle, by perform trend analysis, identify seasonality, and build models such as ARIMA and SARIMA to predict future prices. The objective is to gain practical exposure to time series modeling and understand the statistical patterns underlying financial time series.
 
 📋 Project Summary
 This project provides a comprehensive analysis of Apple Inc.'s historical stock prices using time series data. Leveraging Python libraries such as Pandas, Matplotlib, and Statsmodels, the notebook explores stock trends, calculates rolling statistics, and applies seasonal decomposition to uncover underlying patterns.
