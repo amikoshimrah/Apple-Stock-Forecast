@@ -18,7 +18,9 @@ def load_historical_data():
     df['Date'] = pd.to_datetime(df['Date'])
     df.set_index('Date', inplace=True)
     df.sort_index(inplace=True)
+    df = df[df.index >= pd.to_datetime("2009-01-01")]  # Only keep data from 2009
     return df[['Close']].dropna()
+
 
 # Load models with associated last date
 @st.cache_resource
